@@ -1,0 +1,20 @@
+<!-- <ul>
+    <li *ngFor="let Cart of CartList">{{Cart.name}}</li>
+    <li *ngFor="let Cart of CartList">{{Cart.desc}}</li>
+    <li *ngFor="let Cart of CartList">{{Cart.img}}</li>
+
+</ul> -->
+
+<div class="complete-card" *ngFor="let Cart of CartList" >
+    <div>
+        <img src={{Cart.img}} alt="file" class="news-card__wrapper_image" />
+    </div><br />
+    <div class="news-card__wrapper_title">
+        <h3>{{Cart.name}}</h3>
+    </div>
+    <div class="news-card__wrapper_desc">{{Cart.desc}}</div>
+   
+</div>
+<button (click)="switchmode()">HEALTH MODE</button>
+
+
