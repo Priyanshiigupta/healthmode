@@ -1,21 +1,71 @@
+<div class="container-fluid" style="padding-top: 2%; width:50%;">
+    <form class="d-flex">
+      <input class="form-control me-2" [formControl]="searchitem" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit" (click)="searchfilter()">Search</button>
+    </form>
+  </div>
+  <br><br>
 
-<!-- <ul>
-    <li *ngFor="let Cart of CartList">{{Cart.name}}</li>
-    <li *ngFor="let Cart of CartList">{{Cart.desc}}</li>
-    <li *ngFor="let Cart of CartList">{{Cart.img}}</li>
+<div class="container" *ngFor="let Grocery of GroceryList">
+  <div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="ibox">
+          
 
-</ul> -->
+          <div class="ibox-content">
+            <div class="table-responsive">
+              <table class="table shoping-cart-table">
+                <tbody>
+                  <tr>
+                    <td width="90">
+                      <div class="cart-product-imitation" style="background-color: white;">
+                        <img src={{Grocery.img}} class="h-10px w-100 d-inline-blocks" alt="...">
+                      </div>
+                    </td>
+                    <td class="desc">
+                      <h3>
+                        <span class="text-navy">
+                         <a routerLink="/itemvalue/{{Grocery.id}}">{{Grocery.desc}} </a>
+                                                </span>
+                      </h3>
+                      <p class="small">
+                        {{Grocery.name}}
+                      </p>
+                      <dl class="small m-b-none">
+                        <dt>In Stock</dt>
 
-<div class="complete-card" *ngFor="let Cart of CartList" >
-    <div>
-        <img src={{Cart.img}} alt="file" class="news-card__wrapper_image" />
-    </div><br />
-    <div class="news-card__wrapper_title">
-        <h3>{{Cart.name}}</h3>
+                      </dl>
+
+                      <div class="m-t-sm">
+                        <a href="#" class="text-muted"><i class="fa fa-gift"></i> Add health coins</a>
+                        |
+                        <a href="#" class="text-muted"><i class="fa fa-trash"></i> Remove item</a>
+                      </div>
+                    </td>
+
+                    <td>
+                      {{Grocery.price}}
+                      <s class="small text-muted">$230,00</s>
+                    </td>
+                    <td width="65">
+                      <input type="text" class="form-control" placeholder="1">
+                    </td>
+                    <td>
+                      <h4>
+                        {{Grocery.price}}
+                      </h4>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
     </div>
-    <div class="news-card__wrapper_desc">{{Cart.desc}}</div>
-   
+  </div>
 </div>
-<button (click)="switchmode()">HEALTH MODE</button>
-
-

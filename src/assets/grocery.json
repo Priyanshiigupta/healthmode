@@ -1,0 +1,184 @@
+ [
+{
+    "name": "Sugar",
+    "id": "1",
+    "type": "4",
+    "desc": "Great Value Pure Granulated Sugar, 10 lb",
+    "img": "assets/image/sugar.jpeg",
+    "price": "$23.00",
+    "cat": "sweetner",
+    "benefits":[
+        "benefit 1",
+        "benefit 2",
+        "benefit 3",
+        "benefit 1"
+        ]
+},
+{
+    "name": "Jaggery",
+    "id": "2",
+    "type": "2",
+    "desc": "Jiva Organics Jaggery Powder, 400 gams",
+    "img": "assets/image/jaggery.jpeg",
+    "price": "$10.98",
+    "cat": "sweetner",
+    "benefits":[
+        "benefit 1",
+        "benefit 2",
+        "benefit 3",
+        "benefit 1"
+        ]
+},
+{
+    "name": "Honey",
+    "id": "3",
+    "type": "3",
+    "desc": "Great Value Clover Raw Honey, 32 oz",
+    "img": "assets/image/honey.jpeg",
+    "price": "$12.88",
+    "cat": "sweetner",
+    "benefits":[
+        "benefit 1",
+        "benefit 2",
+        "benefit 3",
+        "benefit 1"
+        ]
+},
+{
+    "name": "Maple syrup",
+    "id": "4",
+    "type": "1",
+    "desc": "Maple Grove Farms® 100% Pure Maple Syrup 12.5 fl. oz. Bottle",
+    "img": "assets/image/maple.jpeg",
+    "price": "$13.43",
+    "cat": "sweetner",
+    "benefits":[
+        "benefit 1",
+        "benefit 2",
+        "benefit 3",
+        "benefit 1"
+        ]
+
+},
+{
+    "name":"Coconut oil",
+    "id":"5",
+    "type":"3",
+    "desc":"Great Value Organic Unrefined Virgin Coconut Oil, 14 fl oz",
+    "img":"assets/image/coconutoil.jpeg",
+    "price":"$4.95",
+    "cat":"oil",
+    "benefits":[
+        "benefit 1",
+        "benefit 2",
+        "benefit 3",
+        "benefit 4"
+        ]
+},
+{
+    "name":"Olive oil",
+    "id":"6",
+    "type":"1",
+    "desc":"Bertolli Extra-Virgin Olive Oil, Original, 16.9 fl oz",
+    "img":"assets/image/oliveoil.jpeg",
+    "price":"$4.98",
+    "cat":"oil",
+    "benefits":[
+        "benefit 1",
+        "benefit 2",
+        "benefit 3",
+        "benefit 1"
+        ]
+},
+{
+    "name":"Avacado oil",
+    "id":"7",
+    "type":"2",
+    "desc":"Great Value Avocado Oil, 25.5 fl oz",
+    "img":"assets/image/Avacado.jpeg",
+    "price":"$7.85",
+    "cat":"oil",
+    "benefits":[
+        "benefit 1",
+        "benefit 2",
+        "benefit 3",
+        "benefit 1"
+        ]
+
+},
+{
+    "name":"Corn oil",
+    "id":"8",
+    "type":"4",
+    "desc":"Mazola Corn Oil, 40 Fl Oz",
+    "img":"assets/image/corn.jpeg",
+    "price":"$5.66",
+    "cat":"oil",
+    "benefits":[
+        "benefit 1",
+        "benefit 2",
+        "benefit 3",
+        "benefit 1"
+        ]
+},
+{
+    "name":"Plain salt",
+    "id":"9",
+    "type":"2",
+    "desc":" Great Value Plain Salt, 26 oz",
+    "img":"assets/image/salt.jpeg",
+    "price":"$0.40",
+    "cat":"salt",
+    "benefits":[
+        "benefit 1",
+        "benefit 2",
+        "benefit 3",
+        "benefit 1"
+        ]
+},
+{
+    "name":"Iodized salt",
+    "id":"9",
+    "type":"2",
+    "desc":"Morton Salt, Iodized, 26 Ounce",
+    "img":"assets/image/isalt.jpeg",
+    "price":"$13.00",
+    "cat":"salt",
+    "benefits":[
+        "benefit 1",
+        "benefit 2",
+        "benefit 3",
+        "benefit 1"
+        ]
+},
+{
+    "name":"Pink salt",
+    "id":"9",
+    "type":"1",
+    "desc":"Morton Himalayan Pink Salt, Coarse for Grilling, Seasoning",
+    "img":"assets/image/psalt.jpeg",
+    "price":"$5.54",
+    "cat":"salt",
+    "benefits":[
+        "benefit 1",
+        "benefit 2",
+        "benefit 3",
+        "benefit 1"
+        ]
+},
+{
+    "name":"Sea salt",
+    "id":"9",
+    "type":"1",
+    "desc":"Pure Flaky Sea Salt",
+    "img":"assets/image/ssalt.png",
+    "price":"$13.88",
+    "cat":"salt",
+    "benefits":[
+        "benefit 1",
+        "benefit 2",
+        "benefit 3",
+        "benefit 1"
+        ]
+}
+]
