@@ -27,21 +27,26 @@ export class MyGroceryListComponent implements OnInit {
 
   }
   switchmode(event: any) {
-    
+    let searchterm = this.searchitem.value.trim();
     var healthmodeService = this.healthmodeService;
     if (event.checked){
-
-   
-    // this.GroceryList = this.GroceryList.filter(function (item) {
-    //           return item.type == '1';
-    
-         
-    //});
+      console.log("if");
     this.GroceryList=this.GroceryList.sort(this.compare);
   }
-  else
+  else 
   {
-     this.GroceryList= grocerylist;
+    if(searchterm){
+      this.GroceryList = grocerylist.filter(function (item) {
+        return item.cat == searchterm; 
+        
+  });
+    }
+    
+    else{
+      console.log("else");
+      this.GroceryList= grocerylist;
+    }
+    
   }
   }
 

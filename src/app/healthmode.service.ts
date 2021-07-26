@@ -8,6 +8,7 @@ export class HealthmodeService {
   private _subject = new Subject<any>();
 
   newEvent(event:any) {
+    localStorage.setItem('healthmode',event.checked);
     this._subject.next(event);
   }
 
@@ -17,7 +18,8 @@ export class HealthmodeService {
  healthtoggle :boolean=false;
   constructor() { }
   ngOnInit(): void {
+
     this.healthtoggle = (this.healthtoggle)?true:false;
-    console.log(this.healthtoggle);
+   
   }
 }

@@ -11,7 +11,7 @@ const routes: Routes = [
    { path: 'healthform', component: FormComponent },
    { path: 'grocerylist', component: MyGroceryListComponent },
    { path: 'healthcoin', component: FitnessComponent },
-   { path: 'discount', component: DiscountComponent },
+   { path: 'cart', component: DiscountComponent },
    { path: 'itemvalue/:id', component:  ItemdetailComponent},
    
    

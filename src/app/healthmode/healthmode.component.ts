@@ -8,14 +8,14 @@ import { HealthmodeService } from '../healthmode.service';
 })
 export class HealthmodeComponent implements OnInit {
   GroceryList: any;
-
+healthmodestorage:any;
   constructor(private healthmodeService:HealthmodeService) { }
 
   ngOnInit(): void {
-    
+    this.healthmodestorage=localStorage.getItem('healthmode');
   }
   switchmode(event:Event){
-      
+     
       
         this.healthmodeService.newEvent(event.target);
       

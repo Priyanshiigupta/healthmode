@@ -12,6 +12,7 @@ import { DiscountComponent } from './discount/discount.component';
 import { HealthmodeComponent } from './healthmode/healthmode.component';
 import {HttpClientModule} from '@angular/common/http';
 import { ItemdetailComponent } from './itemdetail/itemdetail.component';
+import { NewcompComponent } from './newcomp/newcomp.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { ItemdetailComponent } from './itemdetail/itemdetail.component';
     DiscountComponent,
     HealthmodeComponent,
     ItemdetailComponent,
+    NewcompComponent,
   
   ],
   imports: [
